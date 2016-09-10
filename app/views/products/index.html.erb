@@ -1,1 +1,22 @@
-<h1> Vamos por el exito </h1>
+<h1> PRODUCTOS </h1>
+
+<table>
+	<tr>
+<th>Id</th>
+<th>Nombres	</th>
+<th>Url</th>
+<th>Descripcion</th>
+</tr>
+<% @products.each do |product| %>
+<tr>
+	<td> <%= product.id %></td>
+	<td> <%= product.name %></td>
+	<td> <%= product.url %></td>
+	<td> <%= product.description %></td>
+
+</tr>
+
+
+<% end %>
+
+</table>
