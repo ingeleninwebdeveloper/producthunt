@@ -29,7 +29,6 @@ def show
 
 end
 
-<<<<<<< HEAD
 def edit	
 @product=Product.find(params[:id])
 end
@@ -51,8 +50,6 @@ end
 
 end
 
-=======
->>>>>>> 6524c2ac6dfe6670ca48cc63b465900a70ed198d
 
 private
 
