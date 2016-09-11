@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+  resources :users, only: [:new, :create] #limitamos las rutas 
 resources :products
 
 root 'products#index'
